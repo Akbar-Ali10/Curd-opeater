@@ -1,0 +1,146 @@
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  background-color: blanchedalmond;
+  padding: 25px 0;
+  
+}
+
+body {
+  text-align: center;
+ 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  color: aqua;
+}
+
+nav ul li :link {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+table {
+  margin: 0 auto;
+  width: 60%;
+  height: 200px;
+  margin-top: 40px;
+}
+
+
+/* ////////////////form ////////////////////////////////////// */
+
+.container1 {
+  max-width: 350px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.student {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.label-1,
+.label-2,
+.label-3,
+.label-4 {
+  font-size: 16px;
+  color: #000;
+  padding-right: 297px;
+  font-size: 18px;
+}
+
+.form-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input-1,
+.input-2,
+.input-3,
+.input-4 {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.submit {
+  padding: 13px 23px;
+  margin: 20px 0;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(16, 16, 109);
+}
+
+.cheak-list {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: rgb(29, 29, 155);
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 6px;
+  color: white;
+
+}
+
+.Edit {
+  padding: 12px 25px;
+  border-radius: 7px;
+  background-color: rgb(29, 29, 155);
+  border: none;
+  color: white;
+}
+
+.delete {
+  padding: 12px 25px;
+  border-radius: 7px;
+  background-color: red;
+  margin: 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+
+}
